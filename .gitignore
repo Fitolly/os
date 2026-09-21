@@ -23,7 +23,6 @@
 *.dll
 *.so.*
 
-
 # Fortran module files
 *.mod
 *.smod
@@ -67,3 +66,41 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# === ADDED ===
+
+# Visual Studio / MSBuild
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# MSVC intermediate files
+*.tlog
+*.idb
+*.ipch
+*.iobj
+*.ipdb
+*.recipe
+*.lastbuildstate
+*.log
+*.vsidx
+.vsidx
+
+# AutoPCH cache
+**/ipch/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
