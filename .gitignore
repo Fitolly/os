@@ -1,106 +1,24 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
-
-# === ADDED ===
-
-# Visual Studio / MSBuild
+# Visual Studio
 .vs/
-*.vcxproj.user
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Build output
 x64/
-x86/
-[Dd]ebug/
-[Rr]elease/
-[Bb]in/
-[Oo]bj/
-
-# MSVC intermediate files
-*.tlog
-*.idb
+Debug/
+Release/
+*.user
+*.suo
 *.ipch
-*.iobj
-*.ipdb
-*.recipe
+*.pch
+*.vcxproj.user
+
+# Build artifacts
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.tlog
 *.lastbuildstate
 *.log
-*.vsidx
-.vsidx
 
-# AutoPCH cache
-**/ipch/
-
-# ReSharper
-_ReSharper*/
-*.[Rr]e[Ss]harper
-*.DotSettings.user
+# OS
+.DS_Store
+Thumbs.db
